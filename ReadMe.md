@@ -20,7 +20,7 @@ OpenCV in Visual Studio:
 	    Example: C:\Program Files\opencv\build\x64\vc14\bin
 	    </pre>
 
-- Open "OpenCVHelloWorld.sln" using Visual Studio
+- Open "OpenCVHelloWorld.sln" using Visual Studio (https://github.com/Poornamith/OpenCV-VSProject)
 
 - Select the Solution Configurations ( Build -> Configuration Manager) as follows,
   
