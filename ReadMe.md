@@ -7,6 +7,19 @@ OpenCV in Visual Studio:
     
 - Extract the OpenCV libraries in to a local path
 
+- Add OpenCV to Windows PATH
+
+    - Hit 'Windows Key: + 'R' and open "Run" dialog box
+    
+    - Type: rundll32 sysdm.cpl,EditEnvironmentVariables
+    
+    - Select 'Path' variable and Hit "Edit..."
+    
+    - create a new Path for the extracted OpenCV location "build\x64\vc14\bin"
+	<pre>
+	    Example: C:\Program Files\opencv\build\x64\vc14\bin
+	    </pre>
+
 - Open "OpenCVHelloWorld.sln" using Visual Studio
 
 - Select the Solution Configurations ( Build -> Configuration Manager) as follows,
@@ -22,13 +35,13 @@ OpenCV in Visual Studio:
     - Select "C/C++" -> "General" (drop down list)
      
       In Right Hand Side select "Additional Include Directories" set the opencv "build\include" path
-      <pre>EXample:-  C:\Program Files\opencv\build\include
+      <pre>Example:-  C:\Program Files\opencv\build\include
       </pre>
       
     - Select "Linker" -> "General" (drop down list)
     
       In "Additional Library Directories" set the opencv "build\x64\vc14\lib" path
-      <pre>EXample:-  C:\Program Files\opencv\build\x64\vc14\lib
+      <pre>Example:-  C:\Program Files\opencv\build\x64\vc14\lib
       </pre>
       
     - Select "Linker" -> "Input" (drop down list)
